@@ -8,7 +8,6 @@
 [![LSPosed](https://img.shields.io/badge/LSPosed-Required-FF6D00?style=for-the-badge&logo=android&logoColor=white)](https://github.com/LSPosed/LSPosed)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-&lt;/div&gt;
 
 ---
 

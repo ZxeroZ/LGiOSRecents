@@ -1,5 +1,4 @@
-
-# 🌟 LGiOS Recents
+# 🌟 LGiOS Recents 🌟
 
 **Transforms the LG Launcher's recent apps view** into an iOS/HyperOS-style stacked cards layout.
 
@@ -8,16 +7,14 @@
 [![LSPosed](https://img.shields.io/badge/LSPosed-Required-FF6D00?style=for-the-badge&logo=android&logoColor=white)](https://github.com/LSPosed/LSPosed)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-
 ---
-
 
 ## ✨ Features
 
 | Feature | Description |
 |---|---|
 | **🗂️ Stacked Layout** | Apps displayed in a compact, overlapping stack instead of LG's standard side-by-side view. |
-| **🎨 Minimalist UI** | Automatically hides app titles for a cleaner look . |
+| **🎨 Minimalist UI** | Automatically hides app titles for a cleaner look. |
 | **🧠 Memory Fix** | Prevents the launcher from unloading task thumbnails to avoid "grey card" glitches. |
 | **🚀 Smooth Animations** | Optimized scaling and translation math for fluid scrolling. |
 
@@ -25,14 +22,14 @@
 
 ## ⚠️ Compatibility & Warnings
 
-&gt; [!WARNING]
-&gt; **This module is exclusively tested on the LG V60 ThinQ** running the latest available Android version. **No guarantee for other models** or Android versions. Use it at your own risk.
+> [!WARNING]
+> This module is exclusively tested on the LG V60 ThinQ running the latest available Android version. **No guarantee for other models** or Android versions. Use it at your own risk.
 
-&gt; [!CAUTION]
-&gt; **System Stability:** This module hooks directly into `com.lge.launcher3`. If you encounter a bootloop or launcher crash, **disable the module immediately** via Safe Mode or ADB.
+> [!CAUTION]
+> **System Stability:** This module hooks directly into `com.lge.launcher3`. If you encounter a bootloop or launcher crash, **disable the module immediately** via Safe Mode or ADB.
 
-&gt; [!TIP]
-&gt; **Porting to other devices:** If you decide to port this module to another device, be prepared to adjust the `STACK_GAP` constant in `MainHook.java` to match your specific screen density.
+> [!TIP]
+> **Porting to other devices:** If you decide to port this module to another device, be prepared to adjust the `STACK_GAP` constant in `MainHook.java` to match your specific screen density.
 
 ---
 
@@ -56,24 +53,12 @@
 
 ---
 
-## 🛠️ Tech Stack
-
-&lt;p align="center"&gt;
-  &lt;img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"&gt;
-  &lt;img src="https://img.shields.io/badge/Xposed%20Framework-FF6D00?style=for-the-badge&logo=android&logoColor=white" alt="Xposed"&gt;
-  &lt;img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio"&gt;
-&lt;/p&gt;
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you port the module to another LG device, feel free to open a PR and share your `STACK_GAP` configuration.
 
 ---
 
-&lt;div align="center"&gt;
-
+<div align="center">
 **Made with ❤️ for the LG community**
-
-&lt;/div&gt;
+</div>
